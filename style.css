@@ -4,8 +4,14 @@
 
 *{
     font-family: 'Work Sans', sans-serif;
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
 }
 
+body{
+    margin: 0;
+}
 :root{
     --primary-color: #FF42A5;
     --primary-background-color: #FF42A5;
@@ -23,7 +29,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 
-    margin: 45px 240px;
+    margin: 0 240px;
 }
 
 .nav-container{
@@ -113,6 +119,9 @@ nav .title{
     width: 719px;
     height: 680px;
     padding-left: 150px ;
+    margin-left: 100px;
+
+    
 }
 
 .banner-img img{
@@ -157,6 +166,7 @@ nav .title{
 
     margin-right: 20px;
 }
+
 .btn-secondary{
     padding: 15px 30px;
     align-items: flex-start;
@@ -168,4 +178,76 @@ nav .title{
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* We Gamer Section Styles */
+.we-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 240px;
+}
+
+.we-img{
+    width: 60%;
+}
+
+.we-img img{
+    width: 100%;
+    height: auto;
+}
+
+.we-content{
+    width: 40%;
+    padding: 20px 30px;
+}
+
+.we-focus{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    margin: 0;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-description{
+    color: #534C64;
+    text-align: right;
+}
+
+.we-content > .btn{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.we-content .btn-prim{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 48px;
+    background-color: var(--primary-background-color);
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.our-purpose{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.slogan{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: right;
 }
