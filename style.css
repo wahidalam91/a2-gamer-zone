@@ -251,3 +251,92 @@ nav .title{
 
     text-align: right;
 }
+
+/* Online Games Funny Videos Section */
+
+.online-section-container{
+    padding: 50px 240px;
+}
+
+.online-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+    margin: 0 auto;
+}
+
+.online-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.card{
+    border-radius: 1px solid lightpink;
+}
+.card img{
+    width: 100%;
+
+    border-radius: 16px;
+}
+
+/* Play Section Styles */
+.play-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 240px;
+    
+}
+
+.play-content{
+    padding-right: 200px;
+}
+.play-title span{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-title{
+    text-align: right;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.play-description{
+    color: #534C64;
+    text-align: right;
+}
+
+.img-card{
+    position: relative;
+    left: 650px;
+    bottom: 300px;
+
+    border-radius: 8px;
+}
