@@ -379,6 +379,69 @@ nav .title{
     font-weight: 600;
 }
 
+footer{
+    background: #0B0223;
+    padding: 50px 240px;
+    
+}
+.prime-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prime-section img{
+    padding: 5px 20px;
+}
 
 
+.prime-section h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
 
+.links, .links2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links ul, .links2 ul{
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.links2 li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+    padding-top: 25px;
+    padding-bottom: 175px;
+}
