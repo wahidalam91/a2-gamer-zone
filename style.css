@@ -340,3 +340,45 @@ nav .title{
 
     border-radius: 8px;
 }
+
+/* Games Card Section Styles */
+.g-cards-container{
+    padding: 50px 240px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+
+}
+
+.g-cards{
+    display: flex;
+    gap: 30px;
+
+    padding-bottom: 30px;
+}
+.g-card{
+    background-color: #FFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 10px;
+    margin: 0 auto; 
+
+    color: #0B0223;
+    font-weight: 600;
+}
+
+.game-name{
+    padding-left: 10px;
+    
+}
+
+.g-card:hover{
+    border: 2px solid var(--primary-color);
+    color: #F948B2;
+    font-weight: 600;
+}
+
+
+
+
